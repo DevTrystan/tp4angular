@@ -1,0 +1,32 @@
+header {
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 5px;
+   
+  
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+   margin-left: 20px;
+   margin-right: 10px;
+}
+nav a:hover{
+   border-bottom: aliceblue 2px solid;
+}

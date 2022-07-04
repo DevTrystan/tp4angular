@@ -1,0 +1,10 @@
+<header>
+  <h1>Médiatèque</h1>
+  <nav>
+    <span *ngFor="let page of pages">
+      <a routerLink="{{ page.uri }}">
+      {{page.name | uppercase}}
+    </a>
+    </span>
+  </nav>
+</header>
